@@ -1,0 +1,5 @@
+docker build --tag=microservice-kubernetes-demo-apache apache
+
+docker tag microservice-kubernetes-demo-apache phanthanhdat173001/microservice-kubernetes-demo-apache:latest
+
+docker push phanthanhdat173001/microservice-kubernetes-demo-apache
