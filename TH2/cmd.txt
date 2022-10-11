@@ -6,7 +6,7 @@ docker push datpt19/microservice-kubernetes-demo-apache:v1
 
 
 
-docker build --tag=microservice-kubernetes-demo-catalog:v1 microservice-kubernetes-demo-catalog
+docker build --tag=datpt19/microservice-kubernetes-demo-catalog:v1 microservice-kubernetes-demo-catalog
 
 docker tag microservice-kubernetes-demo-catalog datpt19/microservice-kubernetes-demo-catalog:v1
 
@@ -14,14 +14,14 @@ docker push datpt19/microservice-kubernetes-demo-catalog:v1
 
 
 
-docker build --tag=microservice-kubernetes-demo-customer:v1 microservice-kubernetes-demo-customer
+docker build --tag=datpt19/microservice-kubernetes-demo-customer:v1 microservice-kubernetes-demo-customer
 
 docker tag microservice-kubernetes-demo-customer datpt19/microservice-kubernetes-demo-customer:v1
 
 docker push datpt19/microservice-kubernetes-demo-customer:v1
 
 
-docker build --tag=microservice-kubernetes-demo-order:v1 microservice-kubernetes-demo-order
+docker build --tag=datpt19/microservice-kubernetes-demo-order:v1 microservice-kubernetes-demo-order
 
 docker tag microservice-kubernetes-demo-order phanthanhdat173001/microservice-kubernetes-demo-order:v1
 
