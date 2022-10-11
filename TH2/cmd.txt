@@ -6,7 +6,7 @@ docker push phanthanhdat173001/microservice-kubernetes-demo-apache:v1
 
 
 
-docker build --tag=microservice-kubernetes-demo-catalog
+docker build --tag=microservice-kubernetes-demo-catalog microservice-kubernetes-demo-catalog
 
 docker tag microservice-kubernetes-demo-catalog phanthanhdat173001/microservice-kubernetes-demo-catalog:v1
 
@@ -14,14 +14,14 @@ docker push phanthanhdat173001/microservice-kubernetes-demo-catalog:v1
 
 
 
-docker build --tag=microservice-kubernetes-demo-customer
+docker build --tag=microservice-kubernetes-demo-customer microservice-kubernetes-demo-customer
 
 docker tag microservice-kubernetes-demo-customer phanthanhdat173001/microservice-kubernetes-demo-customer:v1
 
 docker push phanthanhdat173001/microservice-kubernetes-demo-customer:v1
 
 
-docker build --tag=microservice-kubernetes-demo-order
+docker build --tag=microservice-kubernetes-demo-order microservice-kubernetes-demo-order
 
 docker tag microservice-kubernetes-demo-order phanthanhdat173001/microservice-kubernetes-demo-order:v1
 
