@@ -1,4 +1,4 @@
-docker build --tag=microservice-kubernetes-demo-apache:v1 apache
+docker build --tag=datpt19/microservice-kubernetes-demo-apache:v1 apache
 
 docker tag microservice-kubernetes-demo-apache datpt19/microservice-kubernetes-demo-apache:v1
 
